@@ -1,11 +1,14 @@
 Part 1 :
 
 - Get all the information from each movie
-
+    SELECT *
 - Get the title of each movie
-
+    SELECT title
+    FROM movies
 - Get the title and year of release of each movie
-
+    SELECT title, year_of_release
+    FROM movies
+    
 Part 2 :
 - Retrieve the title of each movie, sorted alphabetically
 
